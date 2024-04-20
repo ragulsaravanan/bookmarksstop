@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: #FD6569;
+  padding: 10px;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+  padding: 10px;
+}
+.content{
+  padding: 15px;
+  width: 25%;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.content h2{
+  color: #FD6569;
+}
+.content button{
+background-color: #FD6569;
+border: none;
+padding: 5px 10px;
+color: white;
+border-radius: 10px;
+margin-top: 10px;
+}
+.btn{
+  background-color: #FD6569;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 100%;
+  font-size: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.overlay{
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 1;
+  display: none;
+}
+.popup-contentbox{
+  background-color: #FD6569;
+  z-index: 2;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  padding: 20px 30px;
+  width: 30%;
+  display: none;
+}
+.popup-contentbox input{
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 2px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  font-size: 20px;
+}
+.popup-contentbox textarea{
+ 
+  background-color: transparent;
+  border: solid 2px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  font-size: 20px;
+}
+.popup-contentbox button{
+  background-color: black;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  }
+  .popup-contentbox input:focus{
+    outline: none;
+  }
+  .popup-contentbox textarea:focus{
+    outline: none;
+  }
+  
